@@ -62,4 +62,10 @@ bool read_conf(string PATH)
 
 }
 
+//получим имя системы и сборки
+void get_name_my_os()
+{
+    system("uname -a");
+}
+
 
