@@ -68,4 +68,8 @@ void get_name_my_os()
     system("uname -a");
 }
 
-
+//получим дату
+void get_my_data_pc()
+{
+    system("date");
+}
